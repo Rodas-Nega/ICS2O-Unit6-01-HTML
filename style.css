@@ -1,0 +1,20 @@
+body {
+  background-color: cadetblue;
+}
+
+img {
+  border-style: inset;
+  border-color: grey;
+}
+
+form {
+  text-align: center;
+  background-color: darkslategray;
+  font-family: Calibri; 
+  font-size: 80%;
+  border-style: inset;
+  border-color: black;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 10px;
+}

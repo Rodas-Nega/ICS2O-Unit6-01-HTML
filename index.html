@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A random number generator" />
+    <meta name="keywords" content="Math, random, function" />
+    <meta name="author" content="Rodas Nega" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Roll the Dice!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 style="text-align:center;">Hello, World!</h1>
+    <h3 style="text-align:center;">Pick a number from 1-6 and try to guess correctly!<h2>
+    <form>
+      <label for="dice">What's your number?</label>
+      <br>
+      <input type="text" id="dice" size="2">
+      <br>
+      <br>
+      <label id="answer">The number is:</label>
+      <br>
+      <br>
+      <button onclick="document.getElementById('answer').innerHTML = generateRandomNumber()">Submit</button>
+      <br>
+      <br>
+      <img src="./images/Die.gif" alt="Die" height="100px" width="100px">
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
