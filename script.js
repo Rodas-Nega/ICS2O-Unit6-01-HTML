@@ -12,7 +12,7 @@ function generateRandomNumber () {
   } else if (guess >= 7) {
     alert('Thats too far!')
   } else if (guess <= 0) {
-    alert('Thats way too low!')    
+    alert('Thats way too low!')
   } else {
     alert('Maybe next time.')
   }
